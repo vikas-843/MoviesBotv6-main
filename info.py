@@ -1,4 +1,4 @@
-import re
+    import re
 from os import environ
 from Script import script 
 
@@ -25,18 +25,18 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002131280557')) #LOG CHANNEL
 
 #CHANNLS
-GRP1 = environ.get('GRP1', 'https://t.me/+T7Q3qsiyv9cxOGM1') 
-GRP2 = environ.get('GRP2', 'https://t.me/+3evIddbYTPZiMDU9')
-SUP_LNK = environ.get('SUP_LNK', 'https://t.me/TeamiVeGa') #support
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/CineArcade') #main Channel
+GRP1 = environ.get('GRP1', 'https://t.me/ModringMovies') 
+GRP2 = environ.get('GRP2', 'https://t.me/ModringMovies')
+SUP_LNK = environ.get('SUP_LNK', 'https://t.me/ModringMovies') #support
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Allmovieshub_0') #main Channel
 UPDATES = "CineArcade"
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamiVeGa') #ignore
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ModringMovies') #ignore
 auth_channel = "-1002086574998" #FOECE SUB CHANNEL
 # auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP') #FOECE SUB GROUP
 SEARCH_B = "https://t.me/VegaMoviesXBot" #bot username
 SEARCH_G = "https://t.me/+T7Q3qsiyv9cxOGM1" # group link 
-MOV_REQ = environ.get('MOV_REQ', 'https://t.me/TeamiVeGa') #support
+MOV_REQ = environ.get('MOV_REQ', 'https://t.me/ModringMovies') #support
 NO_RES_CNL = int(environ.get('LOG_CHANNEL', '-1002137535594')) #NO RESULT CHANNEL
 
 support_chat_id = environ.get('support_chat_id',"-1002044884739")
